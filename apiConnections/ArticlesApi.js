@@ -20,7 +20,7 @@ const ArticlesApi = () => {
             });  
 
              setData(response.data.data.items);
- 
+   // commit için
 
             } 
             catch (e) {
