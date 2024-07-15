@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "barba",
-    "slug": "barba",
+    "name": "Barba",
+    "slug": "Barba",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/images/splash2.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#f5bdb3"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +18,17 @@
       "supportsTablet": true
     },
     "android": {
+      
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/splash2.jpg",
+        "backgroundColor": "#f5bdb3"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
